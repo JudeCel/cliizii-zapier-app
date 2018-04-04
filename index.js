@@ -1,4 +1,5 @@
 const socialForumSession = require('./triggers/socialForumSession');
+const guestInvitationHistory = require('./triggers/guestInvitationHistory');
 const authentication = require('./authentication/authentication');
 
 const includeSessionKeyHeader = (request, z, bundle) => {
@@ -39,7 +40,8 @@ const App = {
 
   // If you want your trigger to show up, you better include it here!
   triggers: {
-    [socialForumSession.key]: socialForumSession
+    [socialForumSession.key]: socialForumSession,
+    [guestInvitationHistory.key] : guestInvitationHistory
   },
 
   // If you want your searches to show up, you better include it here!

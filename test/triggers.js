@@ -39,4 +39,24 @@ describe('triggers', () => {
     });
   });
 
+  describe('new guest invitation history trigger', () => {
+    it('should load guest invitation history', (done) => {
+      appTester(App.triggers.guestInvitationHistory.operation.perform, bundle)
+        .then(results => {
+          results.length.should.eql(1);
+          done();
+        })
+        .catch(done);
+    });
+
+    it('should load sguest invitation histories list', (done) => {
+      appTester(App.triggers.guestInvitationHistory.operation.performList, bundle)
+        .then(results => {
+          results.length.should.be.greaterThan(1);
+          done();
+        })
+        .catch(done);
+    });
+  });
+
 });
