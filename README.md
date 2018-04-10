@@ -18,3 +18,7 @@ Run:
 ```sh
 zapier test
 ```
+
+### Making changes and deployment process
+
+Please follow [the deployment guide](https://zapier.com/developer/documentation/v2/deploy/). 
