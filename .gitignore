@@ -1,6 +1,7 @@
 build
 docs
 node_modules
+.idea
 
 # Logs
 *.log
