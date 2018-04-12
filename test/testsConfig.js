@@ -1,5 +1,5 @@
 const authData = {
-  email: 'admin@insider.com',
+  email: 'zapiertest@mailinator.com',
   password: 'qwerty123'
 };
 
