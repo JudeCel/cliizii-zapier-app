@@ -1,0 +1,5 @@
+#for test environment
+BASE_URL=http://www.test.cliizii.com
+BASE_API_URL=http://www.test.cliizii.com/api
+ACCOUNT_TEST_EMAIL=admin@insider.com
+ACCOUNT_TEST_PASS=qwerty123

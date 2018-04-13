@@ -1,6 +1,6 @@
 const settings = {
-    baseUrl: 'http://www.test.cliizii.com',
-    baseApiUrl: 'http://www.test.cliizii.com/api',
+    baseUrl: process.env.BASE_URL,
+    baseApiUrl: process.env.BASE_API_URL,
     commonErrorMessage: 'Something went wrong, please try again later'
 };
 

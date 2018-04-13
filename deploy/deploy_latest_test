@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Deploying latest **TEST** Cliizii application to Zapier"
+zapier login
+zapier link
+zapier test
+zapier env 1.0.0 BASE_URL http://www.test.cliizii.com
+zapier env 1.0.0 BASE_API_URL http://www.test.cliizii.com/api
+zapier env 1.0.0 ACCOUNT_TEST_EMAIL admin@insider.com
+zapier env 1.0.0 ACCOUNT_TEST_PASS qwerty123
+zapier push

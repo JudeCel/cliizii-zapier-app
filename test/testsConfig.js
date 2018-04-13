@@ -1,6 +1,6 @@
 const authData = {
-  email: 'admin@insider.com',
-  password: 'qwerty123'
+  email: process.env.ACCOUNT_TEST_EMAIL,
+  password: process.env.ACCOUNT_TEST_PASS,
 };
 
 module.exports = {
