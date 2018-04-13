@@ -1,6 +1,6 @@
 const settings = {
-    baseUrl: 'https://cliizii.chat',
-    baseApiUrl: 'https://cliizii.chat/api',
+    baseUrl: process.env.BASE_URL,
+    baseApiUrl: process.env.BASE_API_URL,
     commonErrorMessage: 'Something went wrong, please try again later'
 };
 
