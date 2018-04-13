@@ -6,7 +6,7 @@ In order to run this app please read **zapier-cli** [Getting started](https://za
 
 ### Tests:
 
-In order to set credentials copy file `.environment.defaults` into `.environment.defaults`.
+In order to set credentials copy file `.environment.defaults` into `.environment`.
 Run:
 ```sh
 zapier test
